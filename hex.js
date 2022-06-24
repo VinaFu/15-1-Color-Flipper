@@ -8,7 +8,9 @@ btn.addEventListener("click", function(){
 let hexColor = "#"; 
 for (let i=0; i<6; i++){
     hexColor += hex[getRandomNumber()]
-    // +=  means adds 6 times
+    // +=  means adds 6 times; should be a function inside so it would be different for each. 
+    // Or it will show 6 same random numbers.
+    
 }
 
 color.textContent = hexColor;
